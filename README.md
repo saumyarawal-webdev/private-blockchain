@@ -16,10 +16,13 @@ GET: http://localhost:3000/blockchain POST: http://localhost:3000/mineBlock Veri
 
 while mining block go to body, select json, add new object and click send.
 
-Note : Manage authorized users from blockchain.js
+
 
 JSON Format for private blockchain mineBlock:
 {
     "data": "Your block data",
     "user": "user1"
 }
+
+Note : Current authorized users are 'user1' and 'user2'.
+Note : Manage authorized users from blockchain.js
